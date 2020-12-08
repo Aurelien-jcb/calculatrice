@@ -1,6 +1,6 @@
 'use strict';
 
-import {Calculator} from "./calculator.js";
+import Calculator from "./calculator.js";
 
-let calculatrice1 = new Calculator();
-let calculatrice2 = new Calculator();
+const calculatrice1 = new Calculator();
+const calculatrice2 = new Calculator();

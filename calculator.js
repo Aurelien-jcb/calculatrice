@@ -1,6 +1,6 @@
 'use strict';
 
-class Calculator {
+export default class Calculator {
     constructor() {
 
         // Création des containers
