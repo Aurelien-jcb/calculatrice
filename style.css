@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
 }
+
 /* Calculatrice */
 .calc__container {
     margin: 250px auto;
@@ -32,6 +33,7 @@ body{
     color: white;
     text-align: right;
     padding-right: 10px;
+    cursor: inherit;
 }
 
 /* Buttons */
@@ -72,10 +74,25 @@ body{
 }
 
 .--ac {
-    background: red;
+    background: #f0595f;
+    border: 1px solid #f0595f;
     color: #ffff;
 }
 
 .--blue {
     color: #2e86c0;
+}
+
+/* Hover */
+.calc__btn:hover {
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+.--equal:hover {
+    background-color: #2874a7;
+}
+
+.--ac:hover {
+    background: #bb4448;
+    border: 1px solid #bb4448;
 }
